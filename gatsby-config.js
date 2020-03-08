@@ -1,14 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Flutter Explained`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Max Weber`,
+      summary: `Passionated Software developer with a focus on Flutter 💙and Dart 💙development.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://flutter-explained.de`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `@flutter_exp`,
+      youtube: `https://www.youtube.com/c/FlutterExplained`,
+      github: `https://github.com/md-weber`,
     },
   },
   plugins: [

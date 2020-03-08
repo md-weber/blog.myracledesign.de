@@ -52,6 +52,9 @@ const Layout = ({ location, title, children }) => {
   return (
     <div
       style={{
+        height: `100vh`,
+        display: `flex`,
+        flexDirection: `column`,
         marginLeft: `auto`,
         marginRight: `auto`,
         maxWidth: rhythm(24),
@@ -59,11 +62,17 @@ const Layout = ({ location, title, children }) => {
       }}
     >
       <header>{header}</header>
-      <main>{children}</main>
+      <main
+        style={{
+          flexGrow: `1`,
+        }}
+      >
+        {children}
+      </main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://www.gatsbyjs.org">Flutter Explained</a>
       </footer>
     </div>
   )
