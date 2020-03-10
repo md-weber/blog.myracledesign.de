@@ -2,8 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import useSiteMetadata from "../hooks/use-site-medadata"
 
 const Layout = ({ location, title, children }) => {
+  const { siteUrl } = useSiteMetadata()
+
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
@@ -72,7 +75,7 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()}
         {` `}
-        <a href="https://www.gatsbyjs.org">Flutter Explained</a>
+        <a href={siteUrl}>Flutter Explained</a>
       </footer>
     </div>
   )

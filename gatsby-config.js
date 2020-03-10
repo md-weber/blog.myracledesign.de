@@ -6,7 +6,7 @@ module.exports = {
       summary: `Passionated Software developer with a focus on Flutter 💙and Dart 💙development.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://flutter-explained.de`,
+    siteUrl: `https://flutterexplained.dev`,
     social: {
       twitter: `@flutter_exp`,
       youtube: `https://www.youtube.com/c/FlutterExplained`,
