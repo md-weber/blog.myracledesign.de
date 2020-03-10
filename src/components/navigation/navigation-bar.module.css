@@ -1,0 +1,9 @@
+.navigation__list-item {
+    list-style: none;
+    flex: 1;
+    padding-right: 10px;
+}
+
+.navigation__list {
+    display: flex;
+}
