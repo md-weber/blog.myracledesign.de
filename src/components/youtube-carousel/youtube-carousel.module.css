@@ -1,0 +1,16 @@
+.card {
+    width: 345px;
+}
+
+.card-header {
+    height: 140px;
+}
+
+.card-body {
+}
+
+.scrolling-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
